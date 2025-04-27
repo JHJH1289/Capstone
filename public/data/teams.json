@@ -1,0 +1,34 @@
+[
+    {
+      "name": "Band-EQ",
+      "image": "assets/images/Logo_Band_EQ.png",
+      "description": "각자의 주파수를 하나의 음악으로 전하는 “BAND EQ” 입니다.\n저희만의 음악으로 즐거운 무대 만들어 보겠습니다🔥🔥",
+      "link": "https://www.instagram.com/_bandeq/"
+    },
+    {
+      "name": "Surf",
+      "image": "assets/images/Logo_Surf.jpg",
+      "description": "마음을 휘젓는 큰 파도로 관객을 매혹하는 밴드 ‘SURF’ 입니다.\n휘몰아치는 우리의 파도 속에서 빠져나올 수 있겠어?"
+    },
+    {
+      "name": "Wildmen",
+      "image": "assets/images/Logo_Wildmen.jpg",
+      "description": "야인과 문명인의 차이."
+    },
+    {
+      "name": "PreBalance",
+      "image": "assets/images/Logo_PreBalance.jpg",
+      "description": "파워풀한 음악 스타일과 강렬한 무대 퍼포먼스를 보여드릴 PreBalance입니다.\n이번무대에서 여러분께 다양한 장르의 음악으로 더욱 다채로운 즐거움을 선사해드리겠습니다."
+    },
+    {
+      "name": "사고다발구역",
+      "image": "assets/images/Logo_SDG.png",
+      "description": "전방에 사고다발구역이니 주의하시길 바랍니다."
+    },
+    {
+      "name": "배도라지",
+      "image": "assets/images/Logo_BDRG.png",
+      "description": "원재료명 및 함량\n배(보윤) 20% (도라지 미함유), 드럼 20%, 베이스 20%, 기타 40%"
+    }
+  ]
+  
