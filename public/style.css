@@ -119,15 +119,37 @@ body {
   text-align: center;
 }
 
-.flowus a {
-  color: white;
-  margin: 0 10px;
-  text-decoration: none;
+.flowus {
+  display: flex;
+  justify-content: center; /* 중앙 정렬 */
+  gap: 25rem;                /* Instagram과 YouTube 사이 간격 */
+  margin-bottom: 2rem;
+  align-items: center;
 }
 
-.flowus a:hover {
+.flowus a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.flowus a:hover span {
   text-decoration: underline;
 }
+
+.flowus img {
+  width: 100px;
+  height: 100px;
+}
+
+.logo img {
+  max-width: 100px;
+  height: auto;
+}
+
 
 .image-slider {
   position: relative;
@@ -149,7 +171,7 @@ body {
 .slide-button {
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
+  transform: translate(-100%, -50%);
   z-index: 10;
   background-color: #174e85;
   color: white;
@@ -161,12 +183,13 @@ body {
 }
 
 .slide-button.left {
-  left: 1rem;
+  left: 25rem;
 }
 
 .slide-button.right {
-  right: 1rem;
+  right: 25rem;
 }
+
 .team-card-container {
   display: flex;
   flex-direction: column;
@@ -197,10 +220,13 @@ body {
   height: 300px;
   object-fit: contain;
   display: block;
+  margin: 0 auto; /* 가로 가운데 정렬 */
 }
 
+
 .team-card-text {
-  flex: 1;
+  width: 500px;         /* 가로 너비 고정 */
+  height: 300px;        /* 세로 높이 고정 */
   padding: 20px;
   background-color: #2183c4;
   color: white;
@@ -208,9 +234,11 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  z-index: 1;
   position: relative;
+  z-index: 1;
+  box-sizing: border-box; /* padding 포함 크기 유지 */
 }
+
 
 .team-card-text h3 {
   font-size: 1.5rem;
@@ -225,4 +253,22 @@ body {
 .team-card-link {
   color: #ffe;
   text-decoration: underline;
+}
+.reservation-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap; /* 반응형 대응 */
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.reservation-column {
+  flex: 1 1 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.reservation-btn{
+  text-align: center;
 }

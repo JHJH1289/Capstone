@@ -25,9 +25,9 @@ function Header() {
           </header>
 
           <div className="image-slider">
-            <button className="slide-button" onClick={() => slide(-1)}>‹</button>
+            <button className="slide-button left" onClick={() => slide(-1)}>‹</button>
             <img src={images[currentIndex]} alt={`Slide ${currentIndex + 1}`} />
-            <button className="slide-button" onClick={() => slide(1)}>›</button>
+            <button className="slide-button right" onClick={() => slide(1)}>›</button>
           </div>
 
           <div className="scroll">

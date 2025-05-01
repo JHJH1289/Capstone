@@ -11,26 +11,22 @@ function Reservation() {
         {/* 연락처 영역 */}
         <div className="reservation-column">
           <div className="single_contact_info">
-            <div className="single_info_text">
-              <h3>Tel</h3>
-              <h4>김지열<br />010-9797-7966</h4>
-              <br />
-              <h4>정재훈<br />010-8763-1289</h4>
-            </div>
+            <h1>Tel</h1>
+            <h3>김지열<br />010-9797-7966</h3>
+            <h3>정재훈<br />010-8763-1289</h3>
           </div>
+
           <div className="single_contact_info">
-            <div className="single_info_text">
-              <h3>Account Number</h3>
-              <h4>김민채<br /><br />카카오 3333296886496</h4>
-            </div>
+            <h1>Account Number</h1>
+            <h3>김민채<br></br>카카오 3333296886496</h3>
           </div>
         </div>
 
         {/* 예매 버튼 */}
         <div className="reservation-column">
-          <div className="single_contact_info center">
-            <h3 className="highlight">예매바로가기</h3>
-            <br />
+          <div className="reservation-btn">
+            <h1 className="highlight">예매바로가기</h1>
+            <br></br>
             <a
               href="https://form.naver.com/response/_Kn4Cc9TvtFysF_f1g3cug"
               className="btn btn-lg reservation-button"
